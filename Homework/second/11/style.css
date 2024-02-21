@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+    width: 85em;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-size: 16px;
+    padding: 10px 39px;
+    border: solid 2px black;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: serif;
+}
+blockquote{
+    font-style: italic;
+    border-left: solid 4px rgb(221,221,221);
+}
+blockquote p{
+    padding-left: 40px;
+}
+.author{
+    text-align: right;
+    padding-right: 30px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+table th, table td{
+    border: solid 1px gray;
+}
+table thead{
+    text-align: left;
+    background-color: lightgray;
+}
+table tbody tr:nth-child(odd){
+    background-color: rgb(235, 232, 232);
+}

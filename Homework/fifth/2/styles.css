@@ -1,0 +1,28 @@
+body{
+    padding: 4em;
+    font-size: 16px;
+    gap: 1em;
+    display: flex;
+    flex-direction: column;
+}
+article{
+    background-color: lightblue;
+    padding: 1em;
+}
+header{
+    background-color: lightblue;
+    padding: 1em;
+}
+section{
+    background-color: lightblue;
+    padding: 1em;
+}
+footer{
+    background-color: lightblue;
+    height: 40px;
+}
+@media (max-width: 500px){
+    body{
+        flex-direction: row;
+    }
+}

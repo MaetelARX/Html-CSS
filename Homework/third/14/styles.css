@@ -1,0 +1,11 @@
+@import "https://use.fontawesome.com/releases/v5.6.3/css/all.css";
+ul li{
+    display: inline-block;
+}
+a{
+    border-radius: 50%;
+    background-color: lightgray;
+}
+a:hover{
+
+}
